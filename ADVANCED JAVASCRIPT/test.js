@@ -9,5 +9,5 @@ const first = () => {
 const newFunc = first();
 newFunc();
 
-//Closures
+//Closures t
 
