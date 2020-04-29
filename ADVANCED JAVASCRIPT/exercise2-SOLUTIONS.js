@@ -46,3 +46,24 @@ undefined
 undefined
 
 //BONUS: practice makes perfect. Go and write your own switch function. It takes time to get used to the syntax!
+
+function moveCommand(direction) {
+    var whatHappens;
+    switch (direction) {
+        case "forward":
+            whatHappens = "Your run into a wall"
+            break;
+        case "back":
+            whatHappens = "You ran away"
+            break;
+        case "right":
+            whatHappens = "You turned into an alley"
+            break;
+        case "left":
+            whatHappens = "You ran into a crowd"
+            break;
+        default:
+            whatHappens = "Please enter a valid direction"
+    }
+    return whatHappens;
+}
