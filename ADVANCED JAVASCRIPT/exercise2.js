@@ -43,3 +43,4 @@ function moveCommand(direction) {
 //Undefined
 
 //BONUS: practice makes perfect. Go and write your own switch function. It takes time to get used to the syntax!
+//Switch function for a game
