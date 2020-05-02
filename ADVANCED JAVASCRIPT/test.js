@@ -11,3 +11,4 @@ newFunc();
 
 //Closures t
 
+var health = gainHP() ? +10 : +0
