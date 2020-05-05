@@ -65,3 +65,16 @@ const reduceArray = array.reduce((accumulator, num) => {
 }, 0);
 
 console.log('reduce', reduceArray);
+
+
+
+//OBJECTS
+// 3 things - reference type, context, instantiation
+
+//REFERENCE TYPE
+
+const object1 = { value: 10 };
+//object1 = object 2 , true
+const object2 = object1;
+const object3 = { value: 10 };
+//object3 = object1, false
