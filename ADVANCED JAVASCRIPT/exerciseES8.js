@@ -29,6 +29,3 @@ let obj = {
 }
 // to this:
 'my name is Rudolf the raindeer'
-//
-//
-//
