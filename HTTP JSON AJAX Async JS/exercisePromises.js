@@ -2,8 +2,16 @@
 
 // #1) Create a promise that resolves in 4 seconds and returns "success" string
 
-// #2) Run the above promise and make it console.log "success"
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("success")
+  }, 4000)
+})
 
+// #2) Run the above promise and make it console.log "success"
+promise.then(console.log)
+
+promise.then(resp => console.log(resp))
 
 // #3) Read about Promise.resolve() and Promise.reject(). How can you make
 // the above promise shorter with Promise.resolve() and console loggin "success"
